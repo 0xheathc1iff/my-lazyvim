@@ -1,0 +1,20 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# ไฟล์ของระบบ (Mac/Linux)
+.DS_Store
+*.swp
+
+# ไฟล์ log หรือ cache ที่ไม่อยากเก็บ
+lazy-lock.json
+# ^ หมายเหตุ: บางคนชอบเก็บ lazy-lock.json เพื่อล็อคเวอร์ชัน plugin 
+# แต่ถ้าชอบอัปเดตใหม่เสมอ ไม่ต้องเก็บก็ได้ครับ (เลือกเอาตามชอบ)
+
+# Persistent session (ถ้ามี plugin เก็บ session)
+.neoconf.json
